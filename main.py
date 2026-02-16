@@ -203,4 +203,4 @@ async def clear_violation(ctx, message_id: int):
     else:
         await ctx.send(f"❌ No pending violation found with that message ID")
 
-bot.run(os.getenv('MTQ3MjgwMDMxMDUzNDczMzkwNQ.G2U1-M.KYUDEuk5896WtrISfmewBQD-FBYFrPJCRL8x-I'))
+bot.run(os.getenv('DISCORD_TOKEN'))
